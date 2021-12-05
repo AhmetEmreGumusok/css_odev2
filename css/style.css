@@ -1,0 +1,50 @@
+.clear {
+    clear: both;
+}
+
+body {
+    background-color: #fff;
+    /* font-family: "Times New Roman",serif; */
+}
+
+header > img {
+    display: block;
+    margin: 0 auto;
+}
+section {
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    width: 90%;
+    padding: 1px 0;
+}
+
+
+section#arama {
+    background-color: #eee;
+    text-align: center;
+}
+/* tüm article lar alt bölümde */
+article {
+    float: left;
+    height: 78px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+article:first-of-type {
+    background-color: #7EE5DA;
+    width: 34%;
+    font-size: 16px;
+}
+
+article:nth-child(2) {
+    background-color: #70CCC2;
+    width: 24%;
+}
+
+article:last-of-type {
+    background-color: #62B3AA;
+    width: 42%;
+}
